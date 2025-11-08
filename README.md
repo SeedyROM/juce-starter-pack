@@ -41,12 +41,14 @@ cd your-plugin-name
 
 # Initialize git repository
 git init
-git add .
-git commit -m "Initial commit from JUCE starter template"
 
 # If using VST2, add and initialize the submodule
 git submodule add https://github.com/sysfce2/vst-2.4-sdk.git external/vst-2.4-sdk
 git submodule update --init --recursive
+
+# Commit initial files
+git add .
+git commit -m "Initial commit from JUCE starter template"
 
 # Configure and build
 cmake -B build
@@ -87,7 +89,7 @@ cp scripts/element_project.conf.example scripts/element_project.conf
 
 ## Based On
 
-This template was extracted from the zplanar project, keeping only the generic infrastructure and removing application-specific DSP code.
+This template was extracted from a JUCE plugin/project I've been working on recently. It aims to provide a solid starting point for new JUCE audio plugin projects, but mostly it's just for my own convenience so I don't have to set up the same boilerplate every time.
 
 ## License
 
