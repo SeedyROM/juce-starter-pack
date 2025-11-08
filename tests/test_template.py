@@ -1,4 +1,4 @@
-"""Tests for the JUCE starter pack cookiecutter template."""
+"""Tests for the JUCE cookiecutter template."""
 
 import subprocess
 import tempfile

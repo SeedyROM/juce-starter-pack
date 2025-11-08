@@ -79,7 +79,7 @@ cmake --build build --config Debug
 ## Project Structure
 
 ```
-juce-starter-pack/
+juce-cookiecutter-template/
 ├── pyproject.toml                          # uv/pytest configuration
 ├── tests/
 │   ├── __init__.py

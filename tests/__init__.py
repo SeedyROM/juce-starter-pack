@@ -1,1 +1,1 @@
-"""Tests for JUCE starter pack cookiecutter template."""
+"""Tests for JUCE cookiecutter template."""

@@ -1,7 +1,7 @@
 [project]
-name = "juce-starter-pack-tests"
+name = "juce-cookiecutter-template-tests"
 version = "0.1.0"
-description = "Tests for JUCE starter pack cookiecutter template"
+description = "Tests for JUCE cookiecutter template"
 requires-python = ">=3.13"
 dependencies = [
     "cookiecutter>=2.6.0",
