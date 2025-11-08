@@ -1,0 +1,17 @@
+{
+  "plugin_name": "MyPlugin",
+  "plugin_name_lowercase": "{{ cookiecutter.plugin_name.lower().replace(' ', '_') }}",
+  "plugin_description": "A JUCE audio plugin",
+  "company_name": "YourCompany",
+  "company_name_lowercase": "{{ cookiecutter.company_name.lower().replace(' ', '') }}",
+  "plugin_manufacturer_code": "{{ cookiecutter.company_name[:4] }}",
+  "plugin_code": "{{ cookiecutter.plugin_name[:4] }}",
+  "author_name": "Your Name",
+  "author_email": "your.email@example.com",
+  "juce_version": "7.0.12",
+  "cpp_standard": "17",
+  "include_vst2": "yes",
+  "include_vst3": "yes",
+  "include_au": "yes",
+  "include_standalone": "yes"
+}

@@ -1,0 +1,19 @@
+[project]
+name = "juce-starter-pack-tests"
+version = "0.1.0"
+description = "Tests for JUCE starter pack cookiecutter template"
+requires-python = ">=3.13"
+dependencies = [
+    "cookiecutter>=2.6.0",
+    "pytest>=8.4.2",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+markers = [
+    "slow: marks tests as slow (e.g., tests that fetch dependencies from the internet)",
+]
+addopts = "-m 'not slow'"  # Skip slow tests by default
