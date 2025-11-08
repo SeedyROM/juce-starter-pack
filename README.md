@@ -24,7 +24,7 @@ A cookiecutter template for creating JUCE audio plugins with VST2/VST3/AU/Standa
 
 ```bash
 # Create a new plugin from this template
-cookiecutter /Users/zack/Workspace/dsp/juce-starter-pack
+cookiecutter https://github.com/SeedyROM/juce-starter-pack
 
 # Follow the prompts to configure your plugin:
 # - plugin_name: Your plugin name (e.g., "MyAwesomePlugin")
