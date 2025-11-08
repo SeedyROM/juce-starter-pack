@@ -44,7 +44,8 @@ git init
 git add .
 git commit -m "Initial commit from JUCE starter template"
 
-# If using VST2, initialize the submodule
+# If using VST2, add and initialize the submodule
+git submodule add https://github.com/sysfce2/vst-2.4-sdk.git external/vst-2.4-sdk
 git submodule update --init --recursive
 
 # Configure and build

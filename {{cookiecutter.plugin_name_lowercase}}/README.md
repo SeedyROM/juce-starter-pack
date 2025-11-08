@@ -20,11 +20,12 @@ This project uses CMake and fetches JUCE automatically.
 - Windows: Visual Studio 2019 or later
 - Linux: GCC or Clang
 {% if cookiecutter.include_vst2 == "yes" %}
-### VST2 Setup (Optional)
+### VST2 Setup
 
-To build VST2 plugins, initialize the VST2 SDK submodule:
+To build VST2 plugins, add and initialize the VST2 SDK submodule:
 
 ```bash
+git submodule add https://github.com/sysfce2/vst-2.4-sdk.git external/vst-2.4-sdk
 git submodule update --init --recursive
 ```
 {% endif %}
